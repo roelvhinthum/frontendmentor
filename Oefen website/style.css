@@ -6,6 +6,8 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
+
+/* Header */
 header{
     
     background-image: url(architecture-1853552_1920.png);
@@ -14,6 +16,7 @@ header{
     background-repeat:no-repeat;
     height: 50vw;
 }
+/* Navitatie */
 nav{
     position: relative;
     height:15%;
@@ -31,10 +34,12 @@ nav{
     margin-right:25px;
 }
 
-.flex-container{
+/* info section */
+header .flex-container{
     display: flex;
     justify-content: center;
     margin-top:5%;
+    flex-wrap:wrap;
 }
 
 .image_overlay{
@@ -55,10 +60,68 @@ nav{
 .p_info ul{
   list-style: none;
   /* padding-left:0; */
+  
 }
 
 .p_info{
     text-align:center;
     padding-top:5%;
+    background:rgba(0, 0, 0, 0.25);
+}
 
+/* skills section */
+
+.skills.flex-container{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+    font-size:1vw;
+    text-align:center;
+    color:black;
+    flex-wrap:wrap;
+    border-bottom:solid black 1px;
+    padding-bottom:50px;
+}
+
+.skill_block{
+    /* background:orange; */
+    width:35vw;
+    margin:0 5%;
+    border: solid black 1px;
+}
+.skill_image{
+    width:100%;
+    height:auto;
+
+}
+/* 
+@media (max-width:320px){
+
+    
+    .skills.flex-container{
+    flex-direction:column;
+    font-size:2vw;
+    }
+} */
+
+/* blog sectie */
+
+.blog_content{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+    font-size:1vw;
+    text-align:center;
+    color:black;
+    flex-wrap:wrap;
+}
+
+.blogs{
+    width:20vw;
+    margin:0 5%;
+    border: solid black 1px;
+}
+.blog_img{
+    width:100%;
+    height:auto;
 }
