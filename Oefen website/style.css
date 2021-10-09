@@ -1,0 +1,64 @@
+body{
+    padding:0;
+    margin:0;
+    font-size:2vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    
+    background-image: url(architecture-1853552_1920.png);
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    height: 50vw;
+}
+nav{
+    position: relative;
+    height:15%;
+}
+.logo{
+    max-height:100%;
+}
+#nav{
+    position: fixed;
+    right:25px;
+    top: 5px;
+}
+#nav li{
+    display:inline-block;
+    margin-right:25px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
+
+.image_overlay{
+    background:rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+}
+
+.image{
+    width:30vw;
+}
+
+.p_image{
+    width:100%;
+    height:auto;
+}
+
+.p_info ul{
+  list-style: none;
+  /* padding-left:0; */
+}
+
+.p_info{
+    text-align:center;
+    padding-top:5%;
+
+}

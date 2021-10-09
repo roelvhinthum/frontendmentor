@@ -1,0 +1,52 @@
+/* Basic notification element */
+#datatrics-box-container .datatrics-box {}
+
+/* Typography */
+#datatrics-box-container .datatrics-box-title {}
+#datatrics-box-container .datatrics-box-persuasion {}
+#datatrics-box-container .datatrics-box-description {}
+
+/* Label */
+#datatrics-box-container .datatrics-box-label {}
+#datatrics-box-container .datatrics-box-label-currency {}
+#datatrics-box-container .datatrics-box-label-value {}
+
+/* Button */
+#datatrics-box-container .datatrics-box-button {}
+#datatrics-box-container .datatrics-box-button:hover {}
+
+/* Form */
+#datatrics-box-container form {}
+#datatrics-box-container .datatrics-box-input {}
+#datatrics-box-container .datatrics-box-input:focus {}
+#datatrics-box-container form .datatrics-box-button { /* Form button specific overrides (inherits styling from default button) */ }
+
+/* Body columns */
+#datatrics-box-container .datatrics-box-col {}
+#datatrics-box-container .datatrics-box-body {}
+#datatrics-box-container .datatrics-box-image {}
+
+/* Mobile elements */
+#datatrics-box-container .datatrics-box-toolbar {}
+#datatrics-box-container .datatrics-box-toolbar-title {}
+#datatrics-box-container .datatrics-box-toolbar .datatrics-box-close {}
+
+/* Body layout variants */
+#datatrics-box-container .datatrics-box-grid-i-b { /* Image top, body below */ }
+#datatrics-box-container .datatrics-box-grid-b-i { /* Body top, image below */ }
+#datatrics-box-container .datatrics-box-grid-4-2 { /* 4/2 body(tekst)/image */ }
+#datatrics-box-container .datatrics-box-grid-2-4 { /* 2/4 image/body(tekst) */ }
+#datatrics-box-container .datatrics-box-grid-i3-b3 { /* 50/50 image/body */ }
+#datatrics-box-container .datatrics-box-grid-b3-i3 { /* 50/50 body/image */ }
+
+
+/* Close button */
+#datatrics-box-container .datatrics-box-close {}
+#datatrics-box-container .datatrics-box-close svg path { /* Close icon fill (fill: color;) */ }
+
+/* Base elements; use with caution */
+#datatrics-box-container { /* Dynamic content wrapper */ }
+#datatrics-box-container.datatrics-box-container-tl { /* Top left */ }
+#datatrics-box-container.datatrics-box-container-tr { /* Top right */ }
+#datatrics-box-container.datatrics-box-container-bl { /* Bottom left */ }
+#datatrics-box-container.datatrics-box-container-br { /* Bottom right */ }

@@ -1,0 +1,743 @@
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i
+  .datatrics-box-image.datatrics-box-image-active,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i.datatrics-box-compact
+  .datatrics-box-image.datatrics-box-image-active,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b
+  .datatrics-box-image.datatrics-box-image-active,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b.datatrics-box-compact
+  .datatrics-box-image.datatrics-box-image-active {
+  min-height: 200px;
+}
+#datatrics-box-container .datatrics-box-button:hover,
+#datatrics-box-container .datatrics-box-close:hover {
+  cursor: pointer;
+}
+#datatrics-box-container,
+#datatrics-box-container a,
+#datatrics-box-container abbr,
+#datatrics-box-container acronym,
+#datatrics-box-container address,
+#datatrics-box-container applet,
+#datatrics-box-container article,
+#datatrics-box-container aside,
+#datatrics-box-container audio,
+#datatrics-box-container b,
+#datatrics-box-container big,
+#datatrics-box-container blockquote,
+#datatrics-box-container canvas,
+#datatrics-box-container caption,
+#datatrics-box-container center,
+#datatrics-box-container cite,
+#datatrics-box-container code,
+#datatrics-box-container dd,
+#datatrics-box-container del,
+#datatrics-box-container details,
+#datatrics-box-container dfn,
+#datatrics-box-container div,
+#datatrics-box-container dl,
+#datatrics-box-container dt,
+#datatrics-box-container em,
+#datatrics-box-container embed,
+#datatrics-box-container fieldset,
+#datatrics-box-container figcaption,
+#datatrics-box-container figure,
+#datatrics-box-container footer,
+#datatrics-box-container form,
+#datatrics-box-container h1,
+#datatrics-box-container h2,
+#datatrics-box-container h3,
+#datatrics-box-container h4,
+#datatrics-box-container h5,
+#datatrics-box-container h6,
+#datatrics-box-container header,
+#datatrics-box-container hgroup,
+#datatrics-box-container i,
+#datatrics-box-container iframe,
+#datatrics-box-container img,
+#datatrics-box-container ins,
+#datatrics-box-container kbd,
+#datatrics-box-container label,
+#datatrics-box-container legend,
+#datatrics-box-container li,
+#datatrics-box-container mark,
+#datatrics-box-container menu,
+#datatrics-box-container nav,
+#datatrics-box-container object,
+#datatrics-box-container ol,
+#datatrics-box-container output,
+#datatrics-box-container p,
+#datatrics-box-container pre,
+#datatrics-box-container q,
+#datatrics-box-container ruby,
+#datatrics-box-container s,
+#datatrics-box-container samp,
+#datatrics-box-container section,
+#datatrics-box-container small,
+#datatrics-box-container span,
+#datatrics-box-container strike,
+#datatrics-box-container strong,
+#datatrics-box-container sub,
+#datatrics-box-container summary,
+#datatrics-box-container sup,
+#datatrics-box-container table,
+#datatrics-box-container tbody,
+#datatrics-box-container td,
+#datatrics-box-container tfoot,
+#datatrics-box-container th,
+#datatrics-box-container thead,
+#datatrics-box-container time,
+#datatrics-box-container tr,
+#datatrics-box-container tt,
+#datatrics-box-container u,
+#datatrics-box-container ul,
+#datatrics-box-container var,
+#datatrics-box-container video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid
+  .datatrics-box-image,
+#datatrics-box-container .datatrics-box-body.datatrics-box-body-center > div,
+#datatrics-box-container .datatrics-box-body.datatrics-box-body-center > form,
+#datatrics-box-container
+  .datatrics-box-body.datatrics-box-body-center
+  > form
+  > div {
+  text-align: center;
+}
+#datatrics-box-container article,
+#datatrics-box-container aside,
+#datatrics-box-container details,
+#datatrics-box-container figcaption,
+#datatrics-box-container figure,
+#datatrics-box-container footer,
+#datatrics-box-container header,
+#datatrics-box-container hgroup,
+#datatrics-box-container menu,
+#datatrics-box-container nav,
+#datatrics-box-container section,
+#datatrics-box-container svg {
+  display: block;
+}
+#datatrics-box-container ol,
+#datatrics-box-container ul {
+  list-style-type: none;
+}
+#datatrics-box-container blockquote,
+#datatrics-box-container q {
+  quotes: none;
+}
+#datatrics-box-container blockquote:after,
+#datatrics-box-container blockquote:before,
+#datatrics-box-container q:after,
+#datatrics-box-container q:before {
+  content: "";
+  content: none;
+}
+#datatrics-box-container table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#datatrics-box-container {
+  font-family: inherit;
+  line-height: 1;
+  position: fixed;
+  z-index: 999;
+  width: 420px;
+  max-width: 100%;
+}
+#datatrics-box-container.datatrics-box-container-tl {
+  left: 20px;
+  top: 20px;
+}
+#datatrics-box-container.datatrics-box-container-tr {
+  right: 20px;
+  top: 20px;
+}
+#datatrics-box-container.datatrics-box-container-br {
+  right: 20px;
+  bottom: 20px;
+}
+#datatrics-box-container.datatrics-box-container-bl {
+  left: 20px;
+  bottom: 20px;
+}
+#datatrics-box-container.datatrics-box-container-bc {
+  left: 50%;
+  bottom: 20px;
+}
+#datatrics-box-container.datatrics-box-container-popup {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+#datatrics-box-container.datatrics-box-container-popup
+  div.datatrics-box-container-inner {
+  position: absolute;
+  width: 420px;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 579px) {
+  #datatrics-box-container {
+    max-width: 100%;
+    width: 100%;
+    left: 0 !important;
+    right: 0 !important;
+    position: fixed;
+  }
+  #datatrics-box-container.datatrics-box-container-tl,
+  #datatrics-box-container.datatrics-box-container-tr {
+    top: 0 !important;
+    bottom: auto !important;
+  }
+  #datatrics-box-container.datatrics-box-container-bc,
+  #datatrics-box-container.datatrics-box-container-bl,
+  #datatrics-box-container.datatrics-box-container-br {
+    bottom: 0 !important;
+    top: auto !important;
+  }
+  #datatrics-box-container.datatrics-box-container-center
+    .datatrics-box-container-inner {
+    padding: 20px;
+  }
+}
+#datatrics-box-container .datatrics-box {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+@media (max-width: 579px) {
+  #datatrics-box-container .datatrics-box {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+  }
+}
+#datatrics-box-container .datatrics-box-body {
+  padding: 20px;
+}
+#datatrics-box-container .datatrics-box-html {
+  width: 100%;
+}
+#datatrics-box-container .datatrics-box-label {
+  padding: 10px;
+  background: #fff;
+  position: absolute;
+  font-size: 90%;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+#datatrics-box-container .datatrics-box .datatrics-box-grid {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#datatrics-box-container .datatrics-box .datatrics-box-grid .datatrics-box-col {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b {
+  flex: 0 0 100%;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i
+  .datatrics-box-body,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i
+  .datatrics-box-image,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b
+  .datatrics-box-body,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b
+  .datatrics-box-image {
+  width: 100%;
+  margin-bottom: -2px;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i.datatrics-box-compact
+  .datatrics-box-body,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b.datatrics-box-compact
+  .datatrics-box-body {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 99;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i.datatrics-box-compact
+  .datatrics-box-body
+  div,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b.datatrics-box-compact
+  .datatrics-box-body
+  div {
+  color: #fff !important;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b
+  .datatrics-box-image,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i3-b3
+  .datatrics-box-image {
+  order: 1;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i
+  .datatrics-box-image,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b3-i3
+  .datatrics-box-image,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i-b
+  .datatrics-box-body,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i3-b3
+  .datatrics-box-body {
+  order: 2;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b-i
+  .datatrics-box-body,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b3-i3
+  .datatrics-box-body {
+  order: 1;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b3-i3
+  .datatrics-box-col,
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i3-b3
+  .datatrics-box-col {
+  width: 50%;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-i3-b3
+  img {
+  padding: 20px 0 20px 20px;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-b3-i3
+  img {
+  padding: 20px 20px 20px 0;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-2-4
+  .datatrics-box-col.datatrics-box-image {
+  width: 33.333%;
+  order: 1;
+  padding: 20px 0 20px 20px;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-2-4
+  .datatrics-box-col:last-child {
+  width: 66.667%;
+  order: 2;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-4-2
+  .datatrics-box-col.datatrics-box-image {
+  width: 33.333%;
+  order: 2;
+  padding: 20px 20px 20px 0;
+}
+#datatrics-box-container
+  .datatrics-box
+  .datatrics-box-grid.datatrics-box-grid-4-2
+  .datatrics-box-col:last-child {
+  width: 66.667%;
+  order: 1;
+}
+#datatrics-box-container .datatrics-box-close {
+  height: 18px;
+  width: 18px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 100;
+}
+#datatrics-box-container .datatrics-box-close svg path {
+  fill: #aaa;
+}
+#datatrics-box-container .datatrics-box-close:hover svg path {
+  fill: #666;
+}
+#datatrics-box-container .datatrics-box-toolbar .datatrics-box-close svg path,
+#datatrics-box-container .datatrics-box-toolbar-icon svg path {
+  fill: #fff;
+}
+#datatrics-box-container .datatrics-box-button {
+  font-size: 90%;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background: #eee;
+  text-decoration: none;
+  border: none;
+}
+#datatrics-box-container .datatrics-box-button.datatrics-box-button-fill {
+  display: block;
+  width: 100%;
+}
+#datatrics-box-container .datatrics-box-input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 90%;
+  box-sizing: border-box;
+  display: table-cell;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+#datatrics-box-container .datatrics-box-input:focus {
+  border-color: #ddd;
+}
+#datatrics-box-container img {
+  max-width: 100%;
+}
+#datatrics-box-container form {
+  padding: 10px 0 0;
+}
+#datatrics-box-container {
+  font-size: 13px;
+  animation-delay: 0;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  transition: 0.4s;
+}
+@media (min-width: 580px) {
+  #datatrics-box-container {
+    font-size: 14px;
+  }
+}
+#datatrics-box-container h1,
+#datatrics-box-container h2,
+#datatrics-box-container h3,
+#datatrics-box-container h4,
+#datatrics-box-container h5,
+#datatrics-box-container h6 {
+  font-weight: 700;
+  line-height: 1.3;
+}
+#datatrics-box-container h1 {
+  font-size: 144%;
+}
+#datatrics-box-container h2 {
+  font-size: 132%;
+}
+#datatrics-box-container h3 {
+  font-size: 124%;
+}
+#datatrics-box-container h4 {
+  font-size: 116%;
+}
+#datatrics-box-container h5 {
+  font-size: 108%;
+}
+#datatrics-box-container h6 {
+  font-size: 100%;
+}
+#datatrics-box-container p {
+  line-height: 1.5;
+  font-size: 92% !important;
+}
+#datatrics-box-container .datatrics-box-persuasion {
+  font-size: 92%;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+#datatrics-box-container .datatrics-box-title {
+  font-size: 116%;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+#datatrics-box-container .datatrics-box-description {
+  font-size: 90%;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: #666;
+}
+#datatrics-box-container .datatrics-box-body > div:last-child {
+  margin-bottom: 0;
+}
+#datatrics-box-container.datatrics-box-container-bc,
+#datatrics-box-container.datatrics-box-container-bl,
+#datatrics-box-container.datatrics-box-container-br {
+  animation-name: datatrics-box-animation-bottom;
+}
+#datatrics-box-container.datatrics-box-container-bc.datatrics-box-container-expanded,
+#datatrics-box-container.datatrics-box-container-bl.datatrics-box-container-expanded,
+#datatrics-box-container.datatrics-box-container-br.datatrics-box-container-expanded {
+  animation-name: datatrics-box-animation-bottom-expand;
+}
+#datatrics-box-container.datatrics-box-container-tl,
+#datatrics-box-container.datatrics-box-container-tr {
+  animation-name: datatrics-box-animation-top;
+}
+#datatrics-box-container.datatrics-box-container-tl.datatrics-box-container-expanded,
+#datatrics-box-container.datatrics-box-container-tr.datatrics-box-container-expanded {
+  animation-name: datatrics-box-animation-top-expand;
+}
+#datatrics-box-container.datatrics-box-container-popup {
+  animation-name: datatrics-box-animation-in !important;
+}
+#datatrics-box-container.datatrics-box-container-hidden {
+  animation-delay: 0s !important;
+  animation-name: datatrics-box-animation-out !important;
+}
+@keyframes datatrics-box-animation-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes datatrics-box-animation-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes datatrics-box-animation-top {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -200%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes datatrics-box-animation-top-expand {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes datatrics-box-animation-bottom {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 200%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes datatrics-box-animation-bottom-expand {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes datatrics-box-animation-bc {
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@keyframes datatrics-box-animation-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes datatrics-box-animation-out {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-200%, -200%);
+  }
+}
+#datatrics-box-container .datatrics-box-toolbar {
+  position: absolute;
+  background: #333;
+  color: #fff;
+  width: 100%;
+  padding: 17px 40px 15px 45px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#datatrics-box-container .datatrics-box-toolbar .datatrics-box-close {
+  background: 0 0;
+}
+#datatrics-box-container .datatrics-box-toolbar-title {
+  color: #fff;
+  line-height: 1.3;
+}
+#datatrics-box-container .datatrics-box-toolbar-icon {
+  height: 20px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  z-index: 100;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+#datatrics-box-container .datatrics-box-toolbar-icon svg {
+  height: 20px;
+}
+#datatrics-box-container.datatrics-box-container-bc .datatrics-box-toolbar,
+#datatrics-box-container.datatrics-box-container-bl .datatrics-box-toolbar,
+#datatrics-box-container.datatrics-box-container-br .datatrics-box-toolbar {
+  top: 0;
+  transform: translate(0, -100%);
+}
+#datatrics-box-container.datatrics-box-container-tl .datatrics-box-toolbar,
+#datatrics-box-container.datatrics-box-container-tr .datatrics-box-toolbar {
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+#datatrics-box-container.datatrics-box-container-expanded
+  .datatrics-box-toolbar,
+#datatrics-box-container.datatrics-box-container-popup .datatrics-box-toolbar {
+  display: none;
+}
+@media (min-width: 580px) {
+  #datatrics-box-container.datatrics-box-container-bl,
+  #datatrics-box-container.datatrics-box-container-tl {
+    animation-name: datatrics-box-animation-left;
+  }
+  #datatrics-box-container.datatrics-box-container-br,
+  #datatrics-box-container.datatrics-box-container-tr {
+    animation-name: datatrics-box-animation-right;
+  }
+  #datatrics-box-container.datatrics-box-container-bc {
+    animation-name: datatrics-box-animation-bc;
+  }
+  #datatrics-box-container .datatrics-box-toolbar {
+    display: none;
+  }
+}
+#datatrics-box-container .datatrics-box-toolbar-title--custom {
+  display: flex;
+  align-items: center;
+  margin-left: -24px;
+}
+#datatrics-box-container
+  .datatrics-box-toolbar-title--custom
+  .datatrics-box-toolbar-icon {
+  position: relative;
+  left: auto;
+  height: 20px;
+  top: auto;
+  transform: none;
+  margin-right: 16px;
+  font-size: 16px;
+}
+#datatrics-box-container .fa {
+  font-family: "Font Awesome 5 Pro";
+}
+#datatrics-box-container .fas {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+#datatrics-box-container .far {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+}
+#datatrics-box-container .fal {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+}
+#datatrics-box-container .fab {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+}
+#datatrics-box-container.datatrics-box-container-recommendation {
+  z-index: 9999;
+}
