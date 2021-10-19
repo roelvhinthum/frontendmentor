@@ -22,7 +22,6 @@ header{
 
 /* Navitatie */
 nav{
-    position: relative;
     height:15%;
 }
 .logo{
@@ -30,7 +29,6 @@ nav{
 }
 #nav{
     float:right;
-    display:inline-block;
     right:25px;
     top: 5px;
 }
@@ -61,14 +59,14 @@ header .flex-container{
     height:auto;
 }
 
-.p_info ul{
-  list-style: none; 
-  padding:0;
-}
-
 .p_info{
     text-align:left;
     padding-top:5%;
+}
+
+.p_info ul{
+  list-style: none; 
+  padding:0;
 }
 
 /* skills section */
@@ -82,13 +80,17 @@ header .flex-container{
     color:black;
     flex-wrap:wrap;
     border-bottom:solid black 1px;
-    padding-bottom:50px;
+    padding-bottom:5%;
 }
 
 .skill_block{
     width:35vw;
     margin:0 5%;
     border: solid black 1px;
+}
+
+.skill_block p{
+    padding:0 5px;
 }
 .skill_image{
     width:100%;
@@ -104,6 +106,7 @@ header .flex-container{
     font-size:2vw;
     }
 } */
+
 
 /* blog sectie */
 
@@ -122,6 +125,10 @@ header .flex-container{
     margin:0 5%;
     border: solid black 1px;
 }
+.blogs p{
+    padding:0 5px;
+}
+
 .blog_img{
     width:100%;
     height:auto;
@@ -163,7 +170,7 @@ label{
 
 input[type=text],input[type=email], select{
     width: 100%;
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -176,7 +183,7 @@ input[type=submit]{
     background:orange;
     text-align:center;
     border-radius:4px;
-    padding:10px;
+    /* padding:10px; */
     border-style:none;
     font-weight:bold;
 }
@@ -187,7 +194,7 @@ input[type=submit]:hover{
 /* footer */
 footer{
 background:grey;
-font-size:1vw;
+font-size:1.25vw;
 }
 
 .footer-wrapper{
@@ -198,21 +205,22 @@ font-size:1vw;
 }
 
 .footer{
-    width:20vw;
+    width:25vw;
 }
 .footer-wrapper li{
     list-style:none;
 }
-.footer-socials a{
+.footer-wrapper a{
     text-decoration: none;
+    color:white;
 }
 
-.footer-socials a:visited{
+.footer-wrapper a:visited{
     color:white;
 }
 
 footer img{
 height:auto;
-width:50%;
+width:75%;
 }
 
